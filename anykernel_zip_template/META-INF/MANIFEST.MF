@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: 03uullEZFtgII7pWGDTQUiokBOU=
+
+Name: kernel/zImage
+SHA1-Digest: 4bgzJGZJTy9MkUNhEIoMM/lRjuY=
+
+Name: kernel/mkbootimg
+SHA1-Digest: Pc1M0sdZh+jD9JwWNW+8xZ5+X1w=
+
+Name: kernel/unpackbootimg
+SHA1-Digest: 67sqF0k6lxAOYeY83oYdRRwV/fg=
+
+Name: kernel/mkbootimg.sh
+SHA1-Digest: ENbPjLxMNwuavuwGQp3bUJ3V2lI=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: tGM1vV4fNIiyk4xMaVPVUNNmjuw=
+
