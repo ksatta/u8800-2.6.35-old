@@ -1,4 +1,5 @@
-zipname=`cat kernel-2.6.35-U8800pro-Gingerbread.tar/include/generated/compile.h | grep LINUX_COMPILE_HOST | cut -d" " -f3 | tr -d \"`
+datever=`cat kernel-2.6.35-U8800pro-Gingerbread.tar/include/generated/compile.h | grep LINUX_COMPILE_HOST | cut -d" " -f3 | tr -d \"`
+zipname="ksatta-u8800-2.6.35_$datever"
 
 cp kernel-2.6.35-U8800pro-Gingerbread.tar/arch/arm/boot/zImage anykernel_zip_template/kernel/zImage
 
