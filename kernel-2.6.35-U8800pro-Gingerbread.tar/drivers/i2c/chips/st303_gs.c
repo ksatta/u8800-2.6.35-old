@@ -64,7 +64,9 @@ static signed short st_sensor_data[3];
 /* < DTS2011042703449  liujinggang 20110427 begin */
 extern int st303_dev_id;
 
-extern struct input_dev *sensor_dev;
+// extern struct input_dev *sensor_dev;
+struct input_dev *sensor_dev=NULL;
+
 /* DTS2011042703449  liujinggang 20110427 end > */
 
 enum st303_reg {
