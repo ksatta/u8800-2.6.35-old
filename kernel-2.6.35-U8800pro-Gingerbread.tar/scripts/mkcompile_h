@@ -66,8 +66,8 @@ UTS_TRUNCATE="cut -b -$UTS_LEN"
   echo \#define LINUX_COMPILE_TIME \"`date +%T`\"
   #/* < DTS2011052606009 jiaxianghong 20110527 begin */
   #/* < DTS2011030103387 niguodong 20110415 begin */
-  echo \#define LINUX_COMPILE_BY \"android\"
-  echo \#define LINUX_COMPILE_HOST \"localhost\"
+  echo \#define LINUX_COMPILE_BY \"$U8800_COMPILE_BY\"
+  echo \#define LINUX_COMPILE_HOST \"$U8800_COMPILE_HOST\"
   #/* DTS2011030103387 niguodong 20110415 end > */
   #/* < DTS2011052606009 jiaxianghong 20110527 end */
   domain=`dnsdomainname 2> /dev/null`
